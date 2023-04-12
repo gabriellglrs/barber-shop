@@ -1,0 +1,11 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg fill="#0,0,0,0.2" width="800px" height="800px" viewBox="0 0 24 24" id="maps-location-place" data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color" stroke="#0,0,0,0.2">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.192"/>
+<g id="SVGRepo_iconCarrier">
+<path id="primary" d="M12,9h8a1,1,0,0,1,1,1V20a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V10A1,1,0,0,1,4,9H5" style="#ffffffill: none; stroke: #A52A2A; stroke-linecap: round; stroke-linejoin: round; stroke-width:1.7759999999999998;"/>
+<path id="primary-2" data-name="primary" d="M13,9l3,8m5,0H3m6,0v4" style="#ffffffill: none; stroke: #A52A2A; stroke-linecap: round; stroke-linejoin: round; stroke-width:1.7759999999999998;"/>
+<path id="secondary" d="M8.5,13S12,10,12,6.5a3.5,3.5,0,0,0-7,0C5,10,8.5,13,8.5,13Z" style="#ffffffill: none; stroke: #ffffff; stroke-linecap: round; stroke-linejoin: round; stroke-width:1.7759999999999998;"/>
+</g>
+</svg>

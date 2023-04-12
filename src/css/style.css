@@ -7,6 +7,15 @@
     text-decoration: none;
 }
 
+/******************
+----CONTAINER / geral----
+*******************/
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
 /**************
   ----HOME----
 **************/
@@ -37,6 +46,7 @@
     margin-top: 20px;
     margin-left: 10px;
     text-transform: uppercase;
+    font-size: 30px;
 }
 
 .home span {
@@ -64,8 +74,9 @@
     width: 100%;
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
+    border-radius: 10px;
 }
 
 .banner .box1 {
@@ -109,4 +120,184 @@
 .banner .img2 {
     width: 60px;
     margin-top: 30px;
+}
+
+/******************
+  -----main-----
+*******************/
+
+.main {
+    background-color: black;
+}
+
+.main .container {
+    display: flex;
+    height: 100vh;
+}
+
+/******************
+----main - box1----
+*******************/
+
+.main .box1 {
+    width: 33%;
+    background-image: url(../img/main1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    top: -100px;
+}
+
+.main .container .box1 .b1 {
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.main .container .box1 .b1 .img1 {
+    width: 60px;
+    margin-top: 20px;
+}
+
+.main .container .box1 .b1 h2 {
+    color: #dcdcdc;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 1px solid brown;
+    border-top: 1px solid brown;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main .container .box1 .b1 h3 {
+    font-size: 20px;
+    color: #dcdcdc;
+    font-weight: 400;
+}
+
+.main .container .box1 .b1 h4 {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #a9a9a9;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.main .container .box1 .b1 .img2 {
+    width: 40px;
+}
+
+.main .container .box1 .b1 .img3 {
+    width: 30px;
+}
+
+/******************* 
+    ----box2----
+*********************/
+
+.main .container .box2 {
+    width: 66%;
+    color: #dcdcdc;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/******************* 
+    ----box2 - b1----
+*********************/
+
+.main .container .box2 .b1 span {
+    margin-top: 20px;
+    color: brown;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.main .container .box2 .b1 h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.main .container .box2 .b1 p {
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #a9a9a9;
+}
+
+/******************* 
+    ----box2 - b2----
+*********************/
+
+.main .container .box2 .b2 {
+    align-self: flex-end;
+}
+
+.main .container .box2 .b2 img {
+    width: 300px;
+}
+
+/******************* 
+    ----section----
+*********************/
+
+.section {
+    background-color: #1c1c1c;
+    height: 100vh;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 30px;
+    color: brown;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.section img {
+    width: 50px;
+}
+
+/************************** 
+    ----section - box1----
+*********************/
+
+.section .box1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.section .box1 .b123 {
+    width: 500px;
+    border: 3px solid brown;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section .box1 .b123:hover {
+    background: black;
+}
+
+.section .box1 .b123 img {
+    width: 50px;
+}
+
+.section .box1 .b123 h3 {
+    color: #dcdcdc;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.section .box1 .b123 p {
+    color: #a9a9a9;
+    font-size: 17px;
 }
