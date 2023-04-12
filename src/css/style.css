@@ -128,6 +128,10 @@
 
 .main {
     background-color: black;
+    background-image: url(../img/main-box2.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: right bottom;
 }
 
 .main .container {
@@ -144,12 +148,10 @@
     background-image: url(../img/main1.jpg);
     background-size: cover;
     border-radius: 10px;
-    position: relative;
-    top: -100px;
 }
 
 .main .container .box1 .b1 {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
     text-align: center;
     height: 100%;
     border-radius: 10px;
@@ -201,7 +203,7 @@
     width: 66%;
     color: #dcdcdc;
     display: flex;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 20px;
 }
 
@@ -227,18 +229,7 @@
     margin-bottom: 20px;
     font-size: 17px;
     color: #a9a9a9;
-}
-
-/******************* 
-    ----box2 - b2----
-*********************/
-
-.main .container .box2 .b2 {
-    align-self: flex-end;
-}
-
-.main .container .box2 .b2 img {
-    width: 300px;
+    width: 500px;
 }
 
 /******************* 
@@ -246,16 +237,17 @@
 *********************/
 
 .section {
-    background-color: #1c1c1c;
-    height: 100vh;
+    background-image: url(../img/yearone-2y4qGxu-4Do-unsplash.jpg);
+    background-size: cover;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .section h2 {
     font-size: 30px;
     color: brown;
-    font-weight: 400;
-    padding-top: 30px;
+    font-weight: 500;
+    padding-top: 20px;
 }
 
 .section img {
@@ -264,7 +256,7 @@
 
 /************************** 
     ----section - box1----
-*********************/
+***************************/
 
 .section .box1 {
     display: flex;
@@ -278,10 +270,11 @@
     margin-top: 50px;
     padding: 20px;
     border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .section .box1 .b123:hover {
-    background: black;
+    background: brown;
 }
 
 .section .box1 .b123 img {
@@ -300,4 +293,99 @@
 .section .box1 .b123 p {
     color: #a9a9a9;
     font-size: 17px;
+}
+
+/************************** 
+    ----input----
+***************************/
+
+.input {
+    background-color: black;
+    background-image: url(../img/input.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 600px;
+    height: 100vh;
+    color: #dcdcdc;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.input .container h3 {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 70px;
+}
+
+.input .container img {
+    width: 50px;
+}
+
+/************************** 
+    ----input - box1----
+***************************/
+
+.input .container .box1 {
+    display: flex;
+    gap: 60px;
+    margin-top: 80px;
+}
+
+.input .container label {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+/************************** 
+    ----input - b1----
+***************************/
+
+.input .container .box1 .b1 input,
+.input .container .box1 .b1 select,
+.input .container .b1 {
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+}
+
+/************************** 
+    ----input - b2----
+***************************/
+
+.input .container .b2 {
+    padding-top: 20px;
+}
+
+.input .container .b2 textarea {
+    border-radius: 10px;
+}
+
+.input .container .b2 label {
+    display: block;
+}
+
+/************************** 
+    ----input - button----
+***************************/
+
+.input .container button {
+    margin-top: 30px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: brown;
+    border: none;
+    cursor: pointer;
+}
+
+.input .container button:hover {
+    background-color: rgb(70, 12, 12);
 }
