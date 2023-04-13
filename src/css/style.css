@@ -130,13 +130,12 @@
     background-color: black;
     background-image: url(../img/main-box2.png);
     background-repeat: no-repeat;
-    background-size: 500px;
+    background-size: 400px;
     background-position: right bottom;
 }
 
 .main .container {
     display: flex;
-    height: 100vh;
 }
 
 /******************
@@ -147,14 +146,12 @@
     width: 33%;
     background-image: url(../img/main1.jpg);
     background-size: cover;
-    border-radius: 10px;
 }
 
 .main .container .box1 .b1 {
     background: rgba(0, 0, 0, 0.8);
     text-align: center;
     height: 100%;
-    border-radius: 10px;
 }
 
 .main .container .box1 .b1 .img1 {
@@ -305,7 +302,6 @@
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 600px;
-    height: 100vh;
     color: #dcdcdc;
     text-align: center;
     padding-top: 20px;
@@ -315,7 +311,7 @@
     font-size: 50px;
     font-weight: 400;
     text-transform: capitalize;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .input .container img {
@@ -384,8 +380,124 @@
     background-color: brown;
     border: none;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 
 .input .container button:hover {
     background-color: rgb(70, 12, 12);
+}
+
+/************************** 
+    ----preços----
+***************************/
+
+.precos {
+    background-color: black;
+}
+
+/************************** 
+   ----preços - grid----
+***************************/
+
+.precos .container .grid {
+    color: #dcdcdc;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+.precos .container .grid .box {
+    border: 3px solid #dcdcdc;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.precos .container .grid .box img {
+    display: block;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/************************** 
+   ----localizacao----
+***************************/
+
+.localizacao {
+    height: 100vh;
+    background-color: black;
+}
+
+.localizacao .container .flex {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+.localizacao .container .flex .box {
+    color: #dcdcdc;
+    display: flex;
+}
+
+.localizacao .container .flex .box img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.localizacao .container .flex .box .img3 {
+    width: 43px;
+}
+
+.localizacao .container .flex .box h4 {
+    color: #dcdcdc;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.localizacao .container .flex .box h6 {
+    color: #a9a9a9;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.localizacao .container .map {
+    width: 100%;
+}
+
+.localizacao .container .map {
+    width: 100%;
+}
+
+.localizacao .container .map {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.localizacao .container .map iframe {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h2 {
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #dcdcdc;
+}
+
+.footer h2 span {
+    color: #dcdcdc;
+    text-transform: uppercase;
+    font-size: 36px;
 }
